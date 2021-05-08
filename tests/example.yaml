@@ -1,0 +1,9 @@
+root:
+    - every
+    - every
+    - every
+master:
+    - other:
+          - raw
+          - raw
+          - raw

@@ -1,8 +1,8 @@
 {
-    "name": "pkg_name",
+    "name": "@uppercod/indentation",
     "type": "module",
-    "version": "0.0.0",
-    "description": "Capture text fragments based on regular expressions that are executed for each line of the text",
+    "version": "1.0.0",
+    "description": "allows to know the indentation between lines, associating a level of depth, indifferent to the use of tabs or spaces",
     "main": "./module.cjs",
     "module": "./src/module.js",
     "types": "./module.d.ts",
@@ -24,14 +24,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/UpperCod/pkg_name.git"
+        "url": "git+https://github.com/UpperCod/indentation.git"
     },
     "author": "UpperCod",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/UpperCod/pkg_name/issues"
+        "url": "https://github.com/UpperCod/indentation/issues"
     },
-    "homepage": "https://github.com/UpperCod/pkg_name#readme",
+    "homepage": "https://github.com/UpperCod/indentation#readme",
     "devDependencies": {
         "ava": "^3.10.1",
         "rollup": "^2.21.0",
