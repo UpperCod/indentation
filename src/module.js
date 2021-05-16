@@ -23,7 +23,7 @@ export function getIndentation(content) {
         return [indentation, line];
     });
 
-    deep.sort();
+    deep.sort((a, b) => (a > b ? 1 : -1));
 
     return lines.map(([indentation, line]) => [
         deep.indexOf(indentation),

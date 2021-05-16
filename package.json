@@ -1,7 +1,7 @@
 {
     "name": "@uppercod/indentation",
     "type": "module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "allows to know the indentation between lines, associating a level of depth, indifferent to the use of tabs or spaces",
     "main": "./module.cjs",
     "module": "./src/module.js",
